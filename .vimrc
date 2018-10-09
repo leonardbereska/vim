@@ -28,7 +28,7 @@ filetype off                  " required
 	" Plugin 'sjl/gundo.vim'
 	Plugin 'auto-pairs-gentle'
 	Plugin 'repeat.vim'
-
+	" Plugin 'LaTeX-Suite-aka-Vim-LaTeX'
 	call vundle#end()            " required
 	filetype plugin indent on    " required
 	" To ignore plugin indent changes, instead use:
@@ -50,10 +50,11 @@ filetype off                  " required
 
 "enable folding
 set foldmethod=indent
-set foldlevelstart=0
+set foldlevel=0
 " interactive shell
 " set shellcmdflag=-ic
-let $BASH_ENV="~/.bash_profile"
+let $BASH_ENV="~/.bash_aliases"
+
 
 " au BufNewFile,BufRead *.py set filetype="python"
 
@@ -69,6 +70,7 @@ au BufNewFile,BufRead *.py
 
 nnoremap Y y$
 " comment/uncomment:
+nnoremap ä ^_i"<Space><Esc><Down>
 autocmd Filetype tex nnoremap ä ^_i%<Space><Esc><Down>
 nnoremap Ä ^_xx<Down>
 
@@ -94,16 +96,20 @@ colorscheme darcula
 
 
 filetype indent on " load filetype-specific indent files
-	set backspace=indent,eol,start
+	set backspace=indent,eol,start " for more intuitive backspace"
 	set wrap
 	set linebreak
-	set nolist  " list disables linebreak
-	set nu
+	" set nolist  " list disables linebreak
+	set nu "line numbers"
 	" set clipboard=unnamed
 	set lazyredraw
 	set showmatch
-	set hlsearch
+	" set hlsearch
+	set breakindent
+	set autoindent
+	set smartindent
 	set incsearch
+
 
 " For mouse click in NERDTree
 	set mouse=
@@ -119,10 +125,10 @@ filetype indent on " load filetype-specific indent files
 	inoremap <Right> <NOP>
 	nnoremap <Right> <NOP>
 	vnoremap <Right> <NOP>
-	noremap h <NOP>
-	noremap j <NOP>
-	noremap k <NOP>
-	noremap l <NOP>
+	" noremap h <NOP>
+	" noremap j <NOP>
+	" noremap k <NOP>
+	" noremap l <NOP>
 	nnoremap B ^
 	nnoremap E $
 	nnoremap ^ <NOP>
@@ -135,8 +141,8 @@ filetype indent on " load filetype-specific indent files
 	nnoremap <C-K> <C-W><C-K>
 	nnoremap <C-L> <C-W><C-L>
 	nnoremap <C-H> <C-W><C-H>
-	nnoremap <S-k> 5k
-	nnoremap <S-j> 5j
+	nnoremap kk 5k
+	nnoremap jj 5j
 	nnoremap <M-Right> <w>
 	nnoremap <M-Left> <b>
 	nnoremap <space> za
