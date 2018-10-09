@@ -2,18 +2,12 @@ let mapleader =","
 
 set nocompatible              " be iMproved, required
 filetype off                  " required
-
-" set the runtime path to include Vundle and initialize
+set viminfo+=n~/.vim/viminfo
+" vundle
 	set rtp+=~/.vim/bundle/Vundle.vim
 	call vundle#begin()
-	" alternatively, pass a path where Vundle should install plugins
-	"call vundle#begin('~/some/path/here')
-
-	" let Vundle manage Vundle, required
 	" Plugin 'VundleVim/Vundle.vim'
 	Plugin 'gmarik/Vundle.vim'
-
-
 	Plugin 'davidhalter/jedi-vim'
 	Plugin 'vim-scripts/indentpython.vim'
 	Plugin 'vim-syntastic/syntastic'
@@ -31,12 +25,10 @@ filetype off                  " required
 	" Plugin 'LaTeX-Suite-aka-Vim-LaTeX'
 	call vundle#end()            " required
 	filetype plugin indent on    " required
-	" To ignore plugin indent changes, instead use:
-	"filetype plugin on
-	"split navigations
-	" Copy to system clipboard
+	" filetype indent on " load filetype-specific indent files
+" Copy to system clipboard
 	vnoremap <C-c> "*Y :let @+=@<CR>
-	"map <C-p> "+P"
+	map <C-p> "+P"
 
 " For saveing view folds:
 	au BufWinLeave * mkview
@@ -49,14 +41,13 @@ filetype off                  " required
 	autocmd BufWritePre * %s/\s\+$//e
 
 "enable folding
-set foldmethod=indent
-set foldlevel=0
+	set foldmethod=indent
+	set foldlevel=0
+
 " interactive shell
-" set shellcmdflag=-ic
-let $BASH_ENV="~/.bash_aliases"
+	" set shellcmdflag=-ic
+	let $BASH_ENV="~/.bash_aliases"
 
-
-" au BufNewFile,BufRead *.py set filetype="python"
 
 au BufNewFile,BufRead *.py
     \ set tabstop=4 |
@@ -68,39 +59,22 @@ au BufNewFile,BufRead *.py
     \ set fileformat=unix |
     \ nnoremap ä ^_i#<Space><Esc><Down>
 
-nnoremap Y y$
 " comment/uncomment:
-nnoremap ä ^_i"<Space><Esc><Down>
-autocmd Filetype tex nnoremap ä ^_i%<Space><Esc><Down>
-nnoremap Ä ^_xx<Down>
+	nnoremap ä ^_i"<Space><Esc><Down>
+	autocmd Filetype tex nnoremap ä ^_i%<Space><Esc><Down>
+	nnoremap Ä ^_xx<Down>
 
-au BufNewFile,BufRead *.js, *.html, *.css
-    \ set tabstop=2 |
-    \ set softtabstop=2 |
-    \ set shiftwidth=2
+" color scheme
+	let python_highlight_all=1
+	syntax enable
+	colorscheme darcula
 
-let python_highlight_all=1
-syntax on
-" syntax enable
-colorscheme darcula
-
-"python with virtualenv support
-	" py3 << EOF
-	" import os
-	" import sys
-	" if 'VIRTUAL_ENV' in os.environ:
-	"   project_base_dir = os.environ['VIRTUAL_ENV']
-	"  activate_this = os.path.join(project_base_dir, 'bin/activate_this.py')
-	"  execfile(activate_this, dict(__file__=activate_this))
-	"EOF
-
-
-filetype indent on " load filetype-specific indent files
-	set backspace=indent,eol,start " for more intuitive backspace"
+" generic settings
+	set backspace=indent,eol,start " for more intuitive backspace
 	set wrap
 	set linebreak
 	" set nolist  " list disables linebreak
-	set nu "line numbers"
+	set nu "line numbers
 	" set clipboard=unnamed
 	set lazyredraw
 	set showmatch
@@ -110,9 +84,8 @@ filetype indent on " load filetype-specific indent files
 	set smartindent
 	set incsearch
 
-
-" For mouse click in NERDTree
-	set mouse=
+" key bindings
+	set mouse=a
 	inoremap <Up> <NOP>
 	vnoremap <Up> <NOP>
 	nnoremap <Up> <NOP>
@@ -125,10 +98,6 @@ filetype indent on " load filetype-specific indent files
 	inoremap <Right> <NOP>
 	nnoremap <Right> <NOP>
 	vnoremap <Right> <NOP>
-	" noremap h <NOP>
-	" noremap j <NOP>
-	" noremap k <NOP>
-	" noremap l <NOP>
 	nnoremap B ^
 	nnoremap E $
 	nnoremap ^ <NOP>
@@ -147,13 +116,12 @@ filetype indent on " load filetype-specific indent files
 	nnoremap <M-Left> <b>
 	nnoremap <space> za
 	nnoremap ii i <Esc>r
+	nnoremap Y y$
 
-
-" set cursorline          " highlight current line
-
-let g:NERDTreeMouseMode=3
-map <C-o> :NERDTreeToggle<CR>
-" let NERDTreeShowHidden=1
+" nerd tree
+	let g:NERDTreeMouseMode=3
+	map <C-o> :NERDTreeToggle<CR>
+	" let NERDTreeShowHidden=1
 
 """LATEX
 	" Word count   :
@@ -196,8 +164,6 @@ map <C-o> :NERDTreeToggle<CR>
 	autocmd FileType tex inoremap ,nu $\varnothing$
 	autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
 	autocmd FileType tex inoremap ,rn (\ref{})<++><Esc>F}i
-
-" Runs a script that cleans out tex build files whenever I close out of a .tex file.
 	autocmd VimLeave *.tex !texclear %
 
 
