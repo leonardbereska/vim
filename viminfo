@@ -21,13 +21,15 @@ $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1539189167,,"wq"
+|2,0,1539189891,,"wq"
 :q
-|2,0,1539189165,,"q"
+|2,0,1539189889,,"q"
+:PluginInstall
+|2,0,1539189881,,"PluginInstall"
+:w
+|2,0,1539189874,,"w"
 :PluginClean
 |2,0,1539189155,,"PluginClean"
-:w
-|2,0,1539189139,,"w"
 :q!
 |2,0,1539176634,,"q!"
 :wq!
@@ -67,7 +69,7 @@ $
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1539189167,,"\\s\\+$"
+|2,1,1539189891,,"\\s\\+$"
 ? \<Plugin\>
 |2,1,1539189115,,"\\<Plugin\\>"
 ? \<source\>
@@ -162,32 +164,40 @@ $
 	
 |3,0,26,0,1,0,1539181880,""
 ""-	CHAR	0
-	M
-|3,1,36,0,1,0,1539182387,"M"
+	"
+|3,1,36,0,1,0,1539189860,"\""
 
 # File marks:
-'0  27  2  ~/.vim/vimrc
-|4,48,27,2,1539189167,"~/.vim/vimrc"
-'1  27  2  ~/.vim/vimrc
-|4,49,27,2,1539189149,"~/.vim/vimrc"
-'2  4226  0  ~/sent
-|4,50,4226,0,1539183164,"~/sent"
-'3  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
-|4,51,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
-'4  31  0  ~/.muttrc
-|4,52,31,0,1539182427,"~/.muttrc"
-'5  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,53,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
-'6  7  74  ~/.muttrc
-|4,54,7,74,1539181868,"~/.muttrc"
-'7  7  74  ~/.muttrc
-|4,55,7,74,1539181868,"~/.muttrc"
-'8  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31525-1762683083290910631
-|4,56,1,0,1539181582,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31525-1762683083290910631"
-'9  7  49  ~/.muttrc
-|4,57,7,49,1539181519,"~/.muttrc"
+'0  23  1  ~/.vim/vimrc
+|4,48,23,1,1539189891,"~/.vim/vimrc"
+'1  23  1  ~/.vim/vimrc
+|4,49,23,1,1539189877,"~/.vim/vimrc"
+'2  27  2  ~/.vim/vimrc
+|4,50,27,2,1539189167,"~/.vim/vimrc"
+'3  27  2  ~/.vim/vimrc
+|4,51,27,2,1539189167,"~/.vim/vimrc"
+'4  27  2  ~/.vim/vimrc
+|4,52,27,2,1539189167,"~/.vim/vimrc"
+'5  27  2  ~/.vim/vimrc
+|4,53,27,2,1539189167,"~/.vim/vimrc"
+'6  27  2  ~/.vim/vimrc
+|4,54,27,2,1539189149,"~/.vim/vimrc"
+'7  27  2  ~/.vim/vimrc
+|4,55,27,2,1539189149,"~/.vim/vimrc"
+'8  27  2  ~/.vim/vimrc
+|4,56,27,2,1539189149,"~/.vim/vimrc"
+'9  27  2  ~/.vim/vimrc
+|4,57,27,2,1539189149,"~/.vim/vimrc"
 
 # Jumplist (newest first):
+-'  23  1  ~/.vim/vimrc
+|4,39,23,1,1539189891,"~/.vim/vimrc"
+-'  23  1  ~/.vim/vimrc
+|4,39,23,1,1539189877,"~/.vim/vimrc"
+-'  27  2  ~/.vim/vimrc
+|4,39,27,2,1539189851,"~/.vim/vimrc"
+-'  27  2  ~/.vim/vimrc
+|4,39,27,2,1539189851,"~/.vim/vimrc"
 -'  27  2  ~/.vim/vimrc
 |4,39,27,2,1539189167,"~/.vim/vimrc"
 -'  27  2  ~/.vim/vimrc
@@ -196,6 +206,14 @@ $
 |4,39,20,3,1539189115,"~/.vim/vimrc"
 -'  20  3  ~/.vim/vimrc
 |4,39,20,3,1539189115,"~/.vim/vimrc"
+-'  20  3  ~/.vim/vimrc
+|4,39,20,3,1539189115,"~/.vim/vimrc"
+-'  20  3  ~/.vim/vimrc
+|4,39,20,3,1539189115,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1539189054,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1539189054,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
 |4,39,1,0,1539189054,"~/.vim/vimrc"
 -'  1  0  ~/.vim/vimrc
@@ -208,6 +226,54 @@ $
 |4,39,4226,0,1539183164,"~/sent"
 -'  4226  0  ~/sent
 |4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
 -'  1  0  ~/sent
 |4,39,1,0,1539183069,"~/sent"
 -'  1  0  ~/sent
@@ -232,6 +298,54 @@ $
 |4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
 -'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
 |4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
 -'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
 |4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
 -'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
@@ -248,154 +362,42 @@ $
 |4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
 -'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
 |4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  31  0  ~/.muttrc
-|4,39,31,0,1539182427,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539182229,"~/.muttrc"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
-|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539181868,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539181868,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539181868,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539181868,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539181868,"~/.muttrc"
--'  7  74  ~/.muttrc
-|4,39,7,74,1539181868,"~/.muttrc"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/vimrc
-	*	1539189165	0
-	"	27	2
+	*	1539189889	0
+	"	23	1
 	^	18	3
-	.	18	2
+	.	23	1
 	+	116	2
 	+	117	2
 	+	101	17
@@ -408,6 +410,7 @@ $
 	+	21	3
 	+	20	2
 	+	18	2
+	+	23	1
 
 > ~/sent
 	*	1539183131	0

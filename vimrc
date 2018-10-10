@@ -20,7 +20,7 @@ set viminfo+=n~/.vim/viminfo
 	" Plugin 'universal-ctags/ctags'
 	" Plugin 'https://github.com/tpope/vim-surround'
 	" Plugin 'sjl/gundo.vim'
-	" Plugin 'auto-pairs-gentle'
+	Plugin 'auto-pairs-gentle'
 	Plugin 'repeat.vim'
 	" Plugin 'LaTeX-Suite-aka-Vim-LaTeX'
 	call vundle#end()            " required
