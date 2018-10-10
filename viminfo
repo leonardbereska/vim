@@ -11,395 +11,654 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/print(f
+~Msle0~/\<Plugin\>
+
+# Last Substitute Search Pattern:
+~MSle0&j
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1539161720,,"wq"
-:!toggl now
-|2,0,1539161716,,"!toggl now"
-:toggl now
-|2,0,1539161712,,"toggl now"
-:!ml
-|2,0,1539161610,,"!ml"
+|2,0,1539189167,,"wq"
 :q
-|2,0,1539161532,,"q"
-:!date
-|2,0,1539161518,,"!date"
+|2,0,1539189165,,"q"
+:PluginClean
+|2,0,1539189155,,"PluginClean"
 :w
-|2,0,1539161478,,"w"
-:tabfind 4_exp.tex
-|2,0,1539159916,,"tabfind 4_exp.tex"
+|2,0,1539189139,,"w"
+:q!
+|2,0,1539176634,,"q!"
+:wq!
+|2,0,1539176627,,"wq!"
+:!ml
+|2,0,0,,"!ml"
+:tabfind 1_intro.tex
+|2,0,0,,"tabfind 1_intro.tex"
+:tabfind main.tex
+|2,0,0,,"tabfind main.tex"
+:tabfind 0_abstract.tex
+|2,0,0,,"tabfind 0_abstract.tex"
+:!date
+|2,0,0,,"!date"
+:!mlc
+|2,0,0,,"!mlc"
+:eqw
+|2,0,0,,"eqw"
 :Wq
-|2,0,1539155845,,"Wq"
+|2,0,0,,"Wq"
+:tabfind 4_exp.tex
+|2,0,0,,"tabfind 4_exp.tex"
+:s/j/k/g
+|2,0,0,,"s/j/k/g"
+:tabfind ~/.vim/vimrc
+|2,0,0,,"tabfind ~/.vim/vimrc"
+:/s/k/l/g
+|2,0,0,,"/s/k/l/g"
+:!toggl now
+|2,0,0,,"!toggl now"
+:toggl now
+|2,0,0,,"toggl now"
 :A
-|2,0,1539155340,,"A"
+|2,0,0,,"A"
 :find .vim/viminfo
-|2,0,1539099636,,"find .vim/viminfo"
+|2,0,0,,"find .vim/viminfo"
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1539161720,,"\\s\\+$"
+|2,1,1539189167,,"\\s\\+$"
+? \<Plugin\>
+|2,1,1539189115,,"\\<Plugin\\>"
+? \<source\>
+|2,1,1539177179,,"\\<source\\>"
+?/passw
+|2,1,1539176962,47,"passw"
+?/user
+|2,1,1539176940,47,"user"
+?/leo
+|2,1,1539176926,47,"leo"
+?/leonar
+|2,1,1539176913,47,"leonar"
+?/smtp
+|2,1,1539176830,47,"smtp"
+? \<usepackage\>
+|2,1,0,,"\\<usepackage\\>"
+?/conf
+|2,1,0,47,"conf"
+?/conferen
+|2,1,0,47,"conferen"
+? j
+|2,1,0,,"j"
+? \<appendices\>
+|2,1,0,,"\\<appendices\\>"
+? \<input\>
+|2,1,0,,"\\<input\\>"
+? s
+|2,1,0,,"s"
 ?/print(f
-|2,1,1539155839,47,"print(f"
+|2,1,0,47,"print(f"
 ?/w = 
-|2,1,1539155761,47,"w = "
+|2,1,0,47,"w = "
 ?/list
-|2,1,1539155706,47,"list"
+|2,1,0,47,"list"
 ?/h = l
-|2,1,1539155672,47,"h = l"
+|2,1,0,47,"h = l"
 ?/def
-|2,1,1539155500,47,"def"
+|2,1,0,47,"def"
 ?/args.w
-|2,1,1539155476,47,"args.w"
+|2,1,0,47,"args.w"
 ?/= 0
-|2,1,1539155468,47,"= 0"
+|2,1,0,47,"= 0"
 ?/args.
-|2,1,1539155414,47,"args."
+|2,1,0,47,"args."
 ?/args.name
-|2,1,1539155150,47,"args.name"
+|2,1,0,47,"args.name"
 ?/args.f
-|2,1,1539155138,47,"args.f"
+|2,1,0,47,"args.f"
 ?/.vimrc
-|2,1,1539099661,47,".vimrc"
+|2,1,0,47,".vimrc"
 
 # Expression History (newest to oldest):
 
 # Input Line History (newest to oldest):
+@Y
+|2,3,1539189159,,"Y"
 
 # Debug Line History (newest to oldest):
 
 # Registers:
-"0	LINE	0
-			\begin{subfigure}{0.5\textwidth}
-			\centering
-			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/part_body_0}\caption{}
-			\label{fig:body_0}
-			\end{subfigure}
-|3,0,0,1,5,0,1539161098,"		\\begin{subfigure}{0.5\\textwidth}","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/part_body_0}\\caption{}","		\\label{fig:body_0}","		\\end{subfigure}"
+"0	CHAR	0
+	leonard.bereska@hotmail.de"
+|3,0,0,0,1,0,1539176934,"leonard.bereska@hotmail.de\""
 "1	LINE	0
 	[201~]]
-|3,0,1,1,1,0,1539161677,"[201~]]"
-"2	LINE	0
-			%\begin{subfigure}{0.5\textwidth}
-			%\centering
-			%\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/shape_yoga}\caption{}
-			%\label{fig:shape_yoga}
-			%\end{subfigure}
-|3,0,2,1,5,0,1539161090,"		%\\begin{subfigure}{0.5\\textwidth}","		%\\centering","		%\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/shape_yoga}\\caption{}","		%\\label{fig:shape_yoga}","		%\\end{subfigure}"
+|3,0,1,1,1,0,1539182368,"[201~]]"
+"2@	LINE	0
+	[201~]]
+|3,2,2,1,1,0,1539182240,"[201~]]"
 "3	LINE	0
-	
-|3,0,3,1,1,0,1539160789,""
-"4	CHAR	0
-		% SHOW DISCOVERY AND COMPARISON TO ZHANG
-		\begin{figure}[t]
-			\centering
-			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/static}
-			\caption{{Unsupervised discovery of landmarks on the static datasets CelebA, Cat Head and CUB-200-2011 (10 landmarks).}}
-			\label{fig:discovery}
-			\end{figure}
-	
-			\begin{figure}[t]
-			\centering
-			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/articulated}
-			\caption{{Unsupervised discovery of landmarks on the articulated datasets Human3.6M (16 landmarks) or BBC Pose (30 landmarks).}}
-			\label{fig:articulated}
-		\end{figure}
-		\begin{figure}[t]
-			\centering
-			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/penndogs}
-			\caption{{Unsupervised discovery of landmarks on Dogs Run (12 landmarks) and Penn Action (16 landmarks).}}
-			\label{fig:penndogs}
-			\end{figure}
-	
-			\begin{figure}[t]
-			\centering
-			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/birds1x3}
-	328
-<		\caption{{Comparison of regression results of our method (top row) to Zhang et al. \cite{Zhang18} (bottom row) on CUB-200-2011. The red dots mark the ground truth, the colored circles the regressed locations. The color coding is in terms of the error w.r.t the image edge length. (same visualization as in \cite{Zhang18})}}
-			\label{fig:compare}
-		\end{figure}
-	
-|3,0,4,0,28,0,1539160166,"	% SHOW DISCOVERY AND COMPARISON TO ZHANG","	\\begin{figure}[t]","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/static}","		\\caption{{Unsupervised discovery of landmarks on the static datasets CelebA, Cat Head and CUB-200-2011 (10 landmarks).}}","		\\label{fig:discovery}","		\\end{figure}","","		\\begin{figure}[t]","		\\centering",>88
-|<"		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/articulated}","		\\caption{{Unsupervised discovery of landmarks on the articulated datasets Human3.6M (16 landmarks) or BBC Pose (30 landmarks).}}","		\\label{fig:articulated}","	\\end{figure}","	\\begin{figure}[t]","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/penndogs}",>111
-|<"		\\caption{{Unsupervised discovery of landmarks on Dogs Run (12 landmarks) and Penn Action (16 landmarks).}}","		\\label{fig:penndogs}","		\\end{figure}","","		\\begin{figure}[t]","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/birds1x3}",>330
-|<"		\\caption{{Comparison of regression results of our method (top row) to Zhang et al. \\cite{Zhang18} (bottom row) on CUB-200-2011. The red dots mark the ground truth, the colored circles the regressed locations. The color coding is in terms of the error w.r.t the image edge length. (same visualization as in \\cite{Zhang18})}}","		\\label{fig:compare}","	\\end{figure}",""
+	> 
+|3,0,3,1,1,0,1539179884,"> "
+"4	LINE	0
+	> https://www.urz.uni-heidelberg.de/de/einrichtung-drucker-druckserver-macos-x
+|3,0,4,1,1,0,1539179883,"> https://www.urz.uni-heidelberg.de/de/einrichtung-drucker-druckserver-macos-x"
 "5	LINE	0
-	
-|3,0,5,1,1,0,1539160135,""
+	On Fri, Oct 05, 2018 at 02:14:06PM +0200, Timo Milbich wrote:
+|3,0,5,1,1,0,1539179882,"On Fri, Oct 05, 2018 at 02:14:06PM +0200, Timo Milbich wrote:"
 "6	LINE	0
-	
-|3,0,6,1,1,0,1539160134,""
+	fertig. 😊
+|3,0,6,1,1,0,1539179400,"fertig. 😊"
 "7	LINE	0
-	    print(folders)
-|3,0,7,1,1,0,1539155843,"    print(folders)"
+	hinzugefügt/gemerged. Wir machen jetzt erstmal die Method soweit
+|3,0,7,1,1,0,1539179399,"hinzugefügt/gemerged. Wir machen jetzt erstmal die Method soweit"
 "8	LINE	0
-	    image = imgs_to_matrix(img_list, grid_size=(.h, args.w),
-|3,0,8,1,1,0,1539155418,"    image = imgs_to_matrix(img_list, grid_size=(.h, args.w),"
+	Einleitung habe ich deine Punkte genommen und meine
+|3,0,8,1,1,0,1539179399,"Einleitung habe ich deine Punkte genommen und meine"
+"9	LINE	0
+	hier nochmal die Einleitung und die Method in Stichpunkten. Für die
+|3,0,9,1,1,0,1539179399,"hier nochmal die Einleitung und die Method in Stichpunkten. Für die"
+"q	CHAR	0
+	
+|3,0,26,0,1,0,1539181880,""
 ""-	CHAR	0
-	~
-|3,1,36,0,1,0,1539161699,"~"
+	M
+|3,1,36,0,1,0,1539182387,"M"
 
 # File marks:
-'0  1  9  ~/.vim/vimrc
-|4,48,1,9,1539161720,"~/.vim/vimrc"
-'1  1  0  ~/.bash_aliases
-|4,49,1,0,1539161702,"~/.bash_aliases"
-'2  1  9  ~/.vim/vimrc
-|4,50,1,9,1539161659,"~/.vim/vimrc"
-'3  1  9  ~/.vim/vimrc
-|4,51,1,9,1539161597,"~/.vim/vimrc"
-'4  1  9  ~/.vim/vimrc
-|4,52,1,9,1539161597,"~/.vim/vimrc"
-'5  8  12  ~/.bash_aliases
-|4,53,8,12,1539161590,"~/.bash_aliases"
-'6  7  12  ~/.bash_aliases
-|4,54,7,12,1539161590,"~/.bash_aliases"
-'7  48  3  ~/.vim/vimrc
-|4,55,48,3,1539161585,"~/.vim/vimrc"
-'8  48  3  ~/.vim/vimrc
-|4,56,48,3,1539161585,"~/.vim/vimrc"
-'9  48  3  ~/.vim/vimrc
-|4,57,48,3,1539161585,"~/.vim/vimrc"
+'0  27  2  ~/.vim/vimrc
+|4,48,27,2,1539189167,"~/.vim/vimrc"
+'1  27  2  ~/.vim/vimrc
+|4,49,27,2,1539189149,"~/.vim/vimrc"
+'2  4226  0  ~/sent
+|4,50,4226,0,1539183164,"~/sent"
+'3  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,51,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+'4  31  0  ~/.muttrc
+|4,52,31,0,1539182427,"~/.muttrc"
+'5  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,53,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+'6  7  74  ~/.muttrc
+|4,54,7,74,1539181868,"~/.muttrc"
+'7  7  74  ~/.muttrc
+|4,55,7,74,1539181868,"~/.muttrc"
+'8  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31525-1762683083290910631
+|4,56,1,0,1539181582,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31525-1762683083290910631"
+'9  7  49  ~/.muttrc
+|4,57,7,49,1539181519,"~/.muttrc"
 
 # Jumplist (newest first):
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161720,"~/.vim/vimrc"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539161702,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539161702,"~/.bash_aliases"
--'  8  12  ~/.bash_aliases
-|4,39,8,12,1539161669,"~/.bash_aliases"
--'  8  12  ~/.bash_aliases
-|4,39,8,12,1539161669,"~/.bash_aliases"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161659,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161659,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161597,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161597,"~/.vim/vimrc"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  7  12  ~/.bash_aliases
-|4,39,7,12,1539161590,"~/.bash_aliases"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  48  3  ~/.vim/vimrc
-|4,39,48,3,1539161585,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161560,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161560,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161560,"~/.vim/vimrc"
--'  1  9  ~/.vim/vimrc
-|4,39,1,9,1539161560,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  115  2  ~/.vim/vimrc
-|4,39,115,2,1539161543,"~/.vim/vimrc"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
--'  2  0  ~/.bash_profile
-|4,39,2,0,1539161507,"~/.bash_profile"
+-'  27  2  ~/.vim/vimrc
+|4,39,27,2,1539189167,"~/.vim/vimrc"
+-'  27  2  ~/.vim/vimrc
+|4,39,27,2,1539189149,"~/.vim/vimrc"
+-'  20  3  ~/.vim/vimrc
+|4,39,20,3,1539189115,"~/.vim/vimrc"
+-'  20  3  ~/.vim/vimrc
+|4,39,20,3,1539189115,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1539189054,"~/.vim/vimrc"
+-'  1  0  ~/.vim/vimrc
+|4,39,1,0,1539189054,"~/.vim/vimrc"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  4226  0  ~/sent
+|4,39,4226,0,1539183164,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  1  0  ~/sent
+|4,39,1,0,1539183069,"~/sent"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  7  2  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,7,2,1539182524,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+|4,39,1,0,1539182485,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  31  0  ~/.muttrc
+|4,39,31,0,1539182427,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539182229,"~/.muttrc"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  1  0  /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+|4,39,1,0,1539181882,"/private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539181868,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539181868,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539181868,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539181868,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539181868,"~/.muttrc"
+-'  7  74  ~/.muttrc
+|4,39,7,74,1539181868,"~/.muttrc"
 
 # History of marks within files (newest to oldest):
 
 > ~/.vim/vimrc
-	*	1539161712	0
-	"	1	9
-	^	114	3
-	.	114	2
-	+	113	2
-	+	114	2
+	*	1539189165	0
+	"	27	2
+	^	18	3
+	.	18	2
+	+	116	2
+	+	117	2
+	+	101	17
+	+	102	0
+	+	104	0
+	+	102	18
+	+	103	21
+	+	23	2
+	+	11	2
+	+	21	3
+	+	20	2
+	+	18	2
 
-> ~/.bash_aliases
-	*	1539161699	0
+> ~/sent
+	*	1539183131	0
+	"	4226	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31698-14555643561443538991
+	*	1539182522	0
+	"	7	2
+	^	7	3
+	.	7	2
+	+	7	2
+
+> ~/.muttrc
+	*	1539182423	0
+	"	31	0
+	^	31	47
+	.	31	0
+	+	15	29
+	+	16	42
+	+	17	45
+	+	18	45
+	+	25	20
+	+	25	103
+	+	25	0
+	+	29	25
+	+	15	0
+	+	21	0
+	+	22	0
+	+	23	0
+	+	24	0
+	+	25	0
+	+	26	0
+	+	29	0
+	+	3	38
+	+	4	0
+	+	8	0
+	+	7	49
+	+	8	24
+	+	9	17
+	+	11	24
+	+	14	47
+	+	29	0
+	+	14	31
+	+	8	26
+	+	9	15
+	+	14	0
+	+	9	0
+	+	11	0
+	+	10	0
+	+	9	48
+	+	7	55
+	+	4	23
+	+	7	73
+	+	27	24
+	+	28	0
+	+	27	0
+	+	29	23
+	+	31	60
+	+	32	0
+	+	31	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31647-3811573472099769330
+	*	1539181880	0
 	"	1	0
-	^	2	9
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31525-1762683083290910631
+	*	1539181577	0
+	"	1	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31457-847966614383384034
+	*	1539181453	0
+	"	2	0
+	^	2	0
+	.	1	4
+	+	1	4
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31423-295228117687936221
+	*	1539181190	0
+	"	2	0
+	^	2	0
+	.	1	15
+	+	1	15
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31352-10667845791231999173
+	*	1539180264	0
+	"	6	2
+	^	6	3
+	.	6	2
+	+	6	2
+
+> ~/postponed
+	*	1539180121	0
+	"	1	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31330-9394450151977981797
+	*	1539179904	0
+	"	5	0
+	^	7	3
+	.	3	0
+	+	1	8
+	+	7	2
+	+	3	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31304-7287927101240877837
+	*	1539179416	0
+	"	3	0
+	^	4	0
+	.	3	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	1	0
+	+	2	0
+	+	3	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	3	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-31264-1011694037925127470
+	*	1539179032	0
+	"	2	0
+	^	7	3
 	.	1	0
-	+	9	19
-	+	1	30
-	+	2	7
+	+	1	9
+	+	7	2
 	+	1	0
 
-> ~/.bash_profile
-	*	1539161504	0
-	"	2	0
+> ~/testy.txt
+	*	1539177283	0
+	"	1	14
+	^	1	15
+	.	1	14
+	+	1	14
+
+> /private/etc/postfix/sasl_passwd
+	*	1539176632	0
+	"	1	0
+	^	1	64
+	.	1	0
+	+	1	0
+
+> /Users/sent
+	*	1539175428	0
+	"	1	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-29586-1616139192330954952
+	"	4	2
+	^	4	3
+	.	5	0
+	+	5	0
+
+> /private/var/folders/9_/7zkt82wn57n35m_gjnrbf6gr0000gn/T/mutt-Leonards-MacBook-Air-501-29582-12997348401682956747
+	"	1	8
+	^	1	9
+	.	1	8
+	+	1	8
 
 > ~/desk/documents/latex/pami/main.tex
-	*	1539161435	0
-	"	125	24
+	*	1539168639	0
+	"	111	0
+	^	110	2
+	.	110	0
+	+	110	0
+	+	111	0
+	+	112	0
+	+	116	0
+	+	110	31
+	+	111	38
+	+	112	31
+	+	116	0
+	+	113	42
+	+	114	0
+	+	113	0
+	+	110	1
+	+	111	1
+	+	112	1
+	+	114	1
+	+	117	1
+	+	118	1
+	+	20	0
+	+	8	0
+	+	4	0
+	+	2	9
+	+	4	0
+	+	33	0
+	+	31	0
+	+	143	0
+	+	147	0
+	+	146	0
+	+	147	0
+	+	37	0
+	+	58	0
+	+	73	75
+	+	73	0
+	+	97	0
+	+	99	1
+	+	100	1
+	+	101	1
+	+	98	85
+	+	33	0
+	+	132	0
+	+	121	0
+	+	123	0
+	+	124	0
+	+	130	0
+	+	131	0
+	+	137	0
+	+	140	0
+	+	98	0
+	+	104	0
+	+	98	0
+	+	97	0
+	+	3	0
+	+	10	0
+	+	9	2
+	+	32	0
+	+	34	0
+	+	31	1
+	+	71	0
+	+	72	0
+	+	57	0
+	+	35	17
+	+	36	0
+	+	70	2
+	+	103	9
+	+	104	0
+	+	110	0
+	+	111	0
+	+	112	0
+	+	113	0
+	+	114	0
+	+	117	0
+	+	118	0
+	+	31	0
+	+	104	0
+	+	108	25
+	+	110	1
+	+	111	1
+	+	112	1
+	+	111	0
+	+	112	0
+	+	110	0
 
 > ~/desk/documents/latex/pami/4_exp.tex
-	*	1539161429	0
-	"	53	1
-	^	75	127
-	.	52	0
+	*	1539168635	0
+	"	75	272
+	^	75	273
+	.	75	272
 	+	5	44
 	+	106	0
 	+	107	0
@@ -431,6 +690,100 @@ $
 	+	73	16
 	+	75	126
 	+	52	0
+	+	123	0
+	+	122	12
+	+	122	0
+	+	122	124
+	+	125	0
+	+	126	0
+	+	120	0
+	+	121	81
+	+	122	204
+	+	122	0
+	+	122	200
+	+	125	0
+	+	134	0
+	+	55	2
+	+	55	3
+	+	56	3
+	+	57	3
+	+	58	3
+	+	59	3
+	+	70	3
+	+	71	3
+	+	72	3
+	+	73	3
+	+	74	3
+	+	75	209
+	+	75	0
+	+	75	272
+
+> ~/desk/documents/latex/pami/1_intro.tex
+	*	1539168563	0
+	"	23	0
+	^	2	2
+	.	4	0
+	+	5	0
+	+	6	0
+	+	7	0
+	+	8	0
+	+	2	0
+	+	4	0
+
+> ~/desk/documents/latex/pami/main.
+	*	1539168337	0
+	"	1	0
+
+> ~/desk/documents/latex/pami/0_abstract.tex
+	*	1539168186	0
+	"	8	0
+	.	3	0
+	+	3	0
+
+> ~/.bash_aliases
+	*	1539167862	0
+	"	15	0
+	^	2	2
+	.	1	0
+	+	9	19
+	+	1	30
+	+	2	7
+	+	1	1
+	+	1	0
+
+> ~/.bash_profile
+	*	1539167844	0
+	"	1	0
+
+> ~/.vim/viminfo
+	*	1539165737	0
+	"	117	0
+	.	69	0
+	+	69	0
+
+> ~/desk/documents/latex/pami/NERD_tree_1
+	*	1539165733	0
+	"	8	3
+	.	1	0
+	+	1	0
+
+> ~/desk/documents/latex/pami/q.log
+	*	1539165707	0
+	"	22	0
+	.	8	0
+	+	8	0
+
+> ~/desk/documents/latex/pami/4_exp2.tex
+	*	1539165651	0
+	"	1	0
+
+> ~/desk/documents/latex/pami/.4_exp.tex.swo
+	*	1539165616	0
+	"	1	0
+
+> /usr/local/Cellar/vim/8.1.0450/share/vim/vim81/doc/map.txt
+	*	1539165162	0
+	"	66	44
 
 > ~/desk/projects/master/make_matrix/scripts/main_test.py
 	*	1539155845	0
@@ -503,8 +856,4 @@ $
 
 > ~/.vimrc
 	*	1539099677	0
-	"	1	0
-
-> ~/.vim/viminfo
-	*	1539099636	0
 	"	1	0

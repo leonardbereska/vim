@@ -8,19 +8,19 @@ set viminfo+=n~/.vim/viminfo
 	call vundle#begin()
 	" Plugin 'VundleVim/Vundle.vim'
 	Plugin 'gmarik/Vundle.vim'
-	Plugin 'davidhalter/jedi-vim'
+	" Plugin 'davidhalter/jedi-vim'
 	Plugin 'vim-scripts/indentpython.vim'
 	Plugin 'vim-syntastic/syntastic'
 	Plugin 'nvie/vim-flake8'
 	Plugin 'tpope/vim-fugitive'
 	Plugin 'scrooloose/nerdtree'
 	Plugin 'jistr/vim-nerdtree-tabs'
-	Plugin 'kien/ctrlp.vim'
+	" Plugin 'kien/ctrlp.vim'
 	" Plugin 'powerline/powerline'
-	Plugin 'universal-ctags/ctags'
-	Plugin 'https://github.com/tpope/vim-surround'
+	" Plugin 'universal-ctags/ctags'
+	" Plugin 'https://github.com/tpope/vim-surround'
 	" Plugin 'sjl/gundo.vim'
-	Plugin 'auto-pairs-gentle'
+	" Plugin 'auto-pairs-gentle'
 	Plugin 'repeat.vim'
 	" Plugin 'LaTeX-Suite-aka-Vim-LaTeX'
 	call vundle#end()            " required
@@ -98,6 +98,8 @@ au BufNewFile,BufRead *.py
 	inoremap <Right> <NOP>
 	nnoremap <Right> <NOP>
 	vnoremap <Right> <NOP>
+	nnoremap <S-j> 7j
+	nnoremap <S-k> 7k
 	nnoremap B ^
 	nnoremap E $
 	nnoremap ^ <NOP>
