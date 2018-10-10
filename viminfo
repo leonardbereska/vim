@@ -11,20 +11,58 @@
 # hlsearch on (H) or off (h):
 ~h
 # Last Search Pattern:
-~MSle0~/.vimrc
+~MSle0~/print(f
 
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
 :wq
-|2,0,1539099821,,"wq"
+|2,0,1539161720,,"wq"
+:!toggl now
+|2,0,1539161716,,"!toggl now"
+:toggl now
+|2,0,1539161712,,"toggl now"
+:!ml
+|2,0,1539161610,,"!ml"
+:q
+|2,0,1539161532,,"q"
+:!date
+|2,0,1539161518,,"!date"
+:w
+|2,0,1539161478,,"w"
+:tabfind 4_exp.tex
+|2,0,1539159916,,"tabfind 4_exp.tex"
+:Wq
+|2,0,1539155845,,"Wq"
+:A
+|2,0,1539155340,,"A"
 :find .vim/viminfo
 |2,0,1539099636,,"find .vim/viminfo"
 
 # Search String History (newest to oldest):
 ? \s\+$
-|2,1,1539099821,,"\\s\\+$"
+|2,1,1539161720,,"\\s\\+$"
+?/print(f
+|2,1,1539155839,47,"print(f"
+?/w = 
+|2,1,1539155761,47,"w = "
+?/list
+|2,1,1539155706,47,"list"
+?/h = l
+|2,1,1539155672,47,"h = l"
+?/def
+|2,1,1539155500,47,"def"
+?/args.w
+|2,1,1539155476,47,"args.w"
+?/= 0
+|2,1,1539155468,47,"= 0"
+?/args.
+|2,1,1539155414,47,"args."
+?/args.name
+|2,1,1539155150,47,"args.name"
+?/args.f
+|2,1,1539155138,47,"args.f"
 ?/.vimrc
 |2,1,1539099661,47,".vimrc"
 
@@ -35,251 +73,436 @@ $
 # Debug Line History (newest to oldest):
 
 # Registers:
+"0	LINE	0
+			\begin{subfigure}{0.5\textwidth}
+			\centering
+			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/part_body_0}\caption{}
+			\label{fig:body_0}
+			\end{subfigure}
+|3,0,0,1,5,0,1539161098,"		\\begin{subfigure}{0.5\\textwidth}","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/part_body_0}\\caption{}","		\\label{fig:body_0}","		\\end{subfigure}"
+"1	LINE	0
+	[201~]]
+|3,0,1,1,1,0,1539161677,"[201~]]"
+"2	LINE	0
+			%\begin{subfigure}{0.5\textwidth}
+			%\centering
+			%\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/shape_yoga}\caption{}
+			%\label{fig:shape_yoga}
+			%\end{subfigure}
+|3,0,2,1,5,0,1539161090,"		%\\begin{subfigure}{0.5\\textwidth}","		%\\centering","		%\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/shape_yoga}\\caption{}","		%\\label{fig:shape_yoga}","		%\\end{subfigure}"
+"3	LINE	0
+	
+|3,0,3,1,1,0,1539160789,""
+"4	CHAR	0
+		% SHOW DISCOVERY AND COMPARISON TO ZHANG
+		\begin{figure}[t]
+			\centering
+			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/static}
+			\caption{{Unsupervised discovery of landmarks on the static datasets CelebA, Cat Head and CUB-200-2011 (10 landmarks).}}
+			\label{fig:discovery}
+			\end{figure}
+	
+			\begin{figure}[t]
+			\centering
+			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/articulated}
+			\caption{{Unsupervised discovery of landmarks on the articulated datasets Human3.6M (16 landmarks) or BBC Pose (30 landmarks).}}
+			\label{fig:articulated}
+		\end{figure}
+		\begin{figure}[t]
+			\centering
+			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/penndogs}
+			\caption{{Unsupervised discovery of landmarks on Dogs Run (12 landmarks) and Penn Action (16 landmarks).}}
+			\label{fig:penndogs}
+			\end{figure}
+	
+			\begin{figure}[t]
+			\centering
+			\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\linewidth]{mat/birds1x3}
+	328
+<		\caption{{Comparison of regression results of our method (top row) to Zhang et al. \cite{Zhang18} (bottom row) on CUB-200-2011. The red dots mark the ground truth, the colored circles the regressed locations. The color coding is in terms of the error w.r.t the image edge length. (same visualization as in \cite{Zhang18})}}
+			\label{fig:compare}
+		\end{figure}
+	
+|3,0,4,0,28,0,1539160166,"	% SHOW DISCOVERY AND COMPARISON TO ZHANG","	\\begin{figure}[t]","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/static}","		\\caption{{Unsupervised discovery of landmarks on the static datasets CelebA, Cat Head and CUB-200-2011 (10 landmarks).}}","		\\label{fig:discovery}","		\\end{figure}","","		\\begin{figure}[t]","		\\centering",>88
+|<"		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/articulated}","		\\caption{{Unsupervised discovery of landmarks on the articulated datasets Human3.6M (16 landmarks) or BBC Pose (30 landmarks).}}","		\\label{fig:articulated}","	\\end{figure}","	\\begin{figure}[t]","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/penndogs}",>111
+|<"		\\caption{{Unsupervised discovery of landmarks on Dogs Run (12 landmarks) and Penn Action (16 landmarks).}}","		\\label{fig:penndogs}","		\\end{figure}","","		\\begin{figure}[t]","		\\centering","		\\includegraphics[trim={0cm 0cm 0cm 0cm},clip, width=1.\\linewidth]{mat/birds1x3}",>330
+|<"		\\caption{{Comparison of regression results of our method (top row) to Zhang et al. \\cite{Zhang18} (bottom row) on CUB-200-2011. The red dots mark the ground truth, the colored circles the regressed locations. The color coding is in terms of the error w.r.t the image edge length. (same visualization as in \\cite{Zhang18})}}","		\\label{fig:compare}","	\\end{figure}",""
+"5	LINE	0
+	
+|3,0,5,1,1,0,1539160135,""
+"6	LINE	0
+	
+|3,0,6,1,1,0,1539160134,""
+"7	LINE	0
+	    print(folders)
+|3,0,7,1,1,0,1539155843,"    print(folders)"
+"8	LINE	0
+	    image = imgs_to_matrix(img_list, grid_size=(.h, args.w),
+|3,0,8,1,1,0,1539155418,"    image = imgs_to_matrix(img_list, grid_size=(.h, args.w),"
 ""-	CHAR	0
-	.
-|3,1,36,0,1,0,1539099673,"."
+	~
+|3,1,36,0,1,0,1539161699,"~"
 
 # File marks:
-'0  1  0  ~/.vim/.netrwhist
-|4,48,1,0,1539099821,"~/.vim/.netrwhist"
-'1  1  0  ~/.vim/vimrc
-|4,49,1,0,1539099696,"~/.vim/vimrc"
-'2  1  0  ~/.vimrc
-|4,50,1,0,1539099679,"~/.vimrc"
-'3  8  19  ~/.bash_aliases
-|4,51,8,19,1539099675,"~/.bash_aliases"
-'4  1  0  ~/.bash_profile
-|4,52,1,0,1539099650,"~/.bash_profile"
-'5  1  0  ~/.vim/viminfo
-|4,53,1,0,1539099638,"~/.vim/viminfo"
-'6  1  0  ~/.vimrc
-|4,54,1,0,1539099548,"~/.vimrc"
+'0  1  9  ~/.vim/vimrc
+|4,48,1,9,1539161720,"~/.vim/vimrc"
+'1  1  0  ~/.bash_aliases
+|4,49,1,0,1539161702,"~/.bash_aliases"
+'2  1  9  ~/.vim/vimrc
+|4,50,1,9,1539161659,"~/.vim/vimrc"
+'3  1  9  ~/.vim/vimrc
+|4,51,1,9,1539161597,"~/.vim/vimrc"
+'4  1  9  ~/.vim/vimrc
+|4,52,1,9,1539161597,"~/.vim/vimrc"
+'5  8  12  ~/.bash_aliases
+|4,53,8,12,1539161590,"~/.bash_aliases"
+'6  7  12  ~/.bash_aliases
+|4,54,7,12,1539161590,"~/.bash_aliases"
+'7  48  3  ~/.vim/vimrc
+|4,55,48,3,1539161585,"~/.vim/vimrc"
+'8  48  3  ~/.vim/vimrc
+|4,56,48,3,1539161585,"~/.vim/vimrc"
+'9  48  3  ~/.vim/vimrc
+|4,57,48,3,1539161585,"~/.vim/vimrc"
 
 # Jumplist (newest first):
--'  1  0  ~/.vim/.netrwhist
-|4,39,1,0,1539099821,"~/.vim/.netrwhist"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1539099696,"~/.vim/vimrc"
--'  1  0  ~/.vim/vimrc
-|4,39,1,0,1539099696,"~/.vim/vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099679,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099679,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099679,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099679,"~/.vimrc"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
--'  8  19  ~/.bash_aliases
-|4,39,8,19,1539099675,"~/.bash_aliases"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161720,"~/.vim/vimrc"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
+|4,39,1,0,1539161702,"~/.bash_aliases"
 -'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_aliases
-|4,39,1,0,1539099661,"~/.bash_aliases"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.bash_profile
-|4,39,1,0,1539099650,"~/.bash_profile"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vim/viminfo
-|4,39,1,0,1539099638,"~/.vim/viminfo"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
--'  1  0  ~/.vimrc
-|4,39,1,0,1539099548,"~/.vimrc"
+|4,39,1,0,1539161702,"~/.bash_aliases"
+-'  8  12  ~/.bash_aliases
+|4,39,8,12,1539161669,"~/.bash_aliases"
+-'  8  12  ~/.bash_aliases
+|4,39,8,12,1539161669,"~/.bash_aliases"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161659,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161659,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161597,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161597,"~/.vim/vimrc"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  7  12  ~/.bash_aliases
+|4,39,7,12,1539161590,"~/.bash_aliases"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  48  3  ~/.vim/vimrc
+|4,39,48,3,1539161585,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161560,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161560,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161560,"~/.vim/vimrc"
+-'  1  9  ~/.vim/vimrc
+|4,39,1,9,1539161560,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  115  2  ~/.vim/vimrc
+|4,39,115,2,1539161543,"~/.vim/vimrc"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
+-'  2  0  ~/.bash_profile
+|4,39,2,0,1539161507,"~/.bash_profile"
 
 # History of marks within files (newest to oldest):
+
+> ~/.vim/vimrc
+	*	1539161712	0
+	"	1	9
+	^	114	3
+	.	114	2
+	+	113	2
+	+	114	2
+
+> ~/.bash_aliases
+	*	1539161699	0
+	"	1	0
+	^	2	9
+	.	1	0
+	+	9	19
+	+	1	30
+	+	2	7
+	+	1	0
+
+> ~/.bash_profile
+	*	1539161504	0
+	"	2	0
+
+> ~/desk/documents/latex/pami/main.tex
+	*	1539161435	0
+	"	125	24
+
+> ~/desk/documents/latex/pami/4_exp.tex
+	*	1539161429	0
+	"	53	1
+	^	75	127
+	.	52	0
+	+	5	44
+	+	106	0
+	+	107	0
+	+	118	0
+	+	116	0
+	+	117	0
+	+	28	2
+	+	29	367
+	+	79	14
+	+	105	0
+	+	80	0
+	+	79	0
+	+	54	0
+	+	77	13
+	+	78	0
+	+	53	3
+	+	57	82
+	+	58	18
+	+	62	0
+	+	63	18
+	+	75	0
+	+	65	0
+	+	66	0
+	+	70	0
+	+	67	82
+	+	68	18
+	+	72	83
+	+	72	0
+	+	73	16
+	+	75	126
+	+	52	0
+
+> ~/desk/projects/master/make_matrix/scripts/main_test.py
+	*	1539155845	0
+	"	40	4
+	.	40	0
+	+	54	0
+	+	70	30
+	+	69	0
+	+	70	50
+	+	70	52
+	+	70	53
+	+	69	0
+	+	41	23
+	+	42	21
+	+	44	23
+	+	38	5
+	+	54	0
+	+	58	35
+	+	46	22
+	+	45	0
+	+	48	18
+	+	53	0
+	+	50	16
+	+	49	0
+	+	50	16
+	+	49	0
+	+	52	17
+	+	56	0
+	+	55	48
+	+	54	0
+	+	55	51
+	+	49	14
+	+	64	49
+	+	65	49
+	+	46	101
+	+	46	0
+	+	46	24
+	+	40	10
+	+	39	0
+	+	40	17
+	+	39	0
+	+	50	25
+	+	49	0
+	+	50	32
+	+	49	0
+	+	50	26
+	+	49	0
+	+	50	43
+	+	49	0
+	+	40	0
+
+> ~/desk/projects/master/make_matrix/scripts/ops_general.py
+	*	1539154808	0
+	"	219	22
+	^	219	23
+	.	219	22
+	+	172	35
+	+	172	46
+	+	214	19
+	+	215	0
+	+	221	0
+	+	215	0
+	+	221	0
+	+	218	9
+	+	219	22
 
 > ~/.vim/.netrwhist
 	*	1539099812	0
 	"	1	0
 
-> ~/.vim/vimrc
-	*	1539099693	0
-	"	1	0
-
 > ~/.vimrc
 	*	1539099677	0
-	"	1	0
-
-> ~/.bash_aliases
-	*	1539099673	0
-	"	8	19
-	^	8	19
-	.	8	19
-	+	8	19
-
-> ~/.bash_profile
-	*	1539099646	0
 	"	1	0
 
 > ~/.vim/viminfo

@@ -110,8 +110,8 @@ au BufNewFile,BufRead *.py
 	nnoremap <C-K> <C-W><C-K>
 	nnoremap <C-L> <C-W><C-L>
 	nnoremap <C-H> <C-W><C-H>
-	nnoremap kk 5k
-	nnoremap jj 5j
+	" nnoremap kk 5k
+	" nnoremap jj 5j
 	nnoremap <M-Right> <w>
 	nnoremap <M-Left> <b>
 	nnoremap <space> za
