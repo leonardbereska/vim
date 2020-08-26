@@ -4,8 +4,8 @@ set nocompatible              " be iMproved, required
 filetype off                  " required
 set viminfo+=n~/.vim/viminfo
 " vundle
-	set rtp+=~/.vim/bundle/Vundle.vim
-	call vundle#begin()
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
 	" Plugin 'VundleVim/Vundle.vim'
 	Plugin 'gmarik/Vundle.vim'
 	" Plugin 'davidhalter/jedi-vim'
@@ -22,8 +22,8 @@ set viminfo+=n~/.vim/viminfo
 	" Plugin 'sjl/gundo.vim'
 	" Plugin 'auto-pairs-gentle'
 	" Plugin 'repeat.vim'
-	" Plugin 'LaTeX-Suite-aka-Vim-LaTeX'
-	call vundle#end()            " required
+	Plugin 'LaTeX-Suite-aka-Vim-LaTeX'
+call vundle#end()            " required
 	filetype plugin indent on    " required
 	" filetype indent on " load filetype-specific indent files
 " Copy to system clipboard
@@ -127,41 +127,112 @@ au BufNewFile,BufRead *.py
 	" let NERDTreeShowHidden=1
 
 """LATEX
-	" Word count   :
-	autocmd FileType tex map <F3> :w !detex \| wc -w<CR>
-	autocmd FileType tex inoremap <F3> <Esc>:w !detex \| wc -w<CR>
-	" Compile document using xelatex:
-	autocmd FileType tex inoremap <F5> <Esc>:!xelatex<space><c-r>%<Enter>a
-	autocmd FileType tex nnoremap <F5> :!xelatex<space><c-r>%<Enter>
-	" Code snippets
-	autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><++><Enter><Enter>\end{frame}<Enter><Enter><++><Esc>6kf}i
-	autocmd FileType tex inoremap ,fi \begin{fitch}<Enter><Enter>\end{fitch}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,exe \begin{exe}<Enter>\ex<Space><Enter>\end{exe}<Enter><Enter><++><Esc>3kA
-	autocmd FileType tex inoremap ,em \emph{}<Esc>T{i
-	autocmd FileType tex inoremap ,bf \textbf{}<Esc>T{i
-	autocmd FileType tex vnoremap , <ESC>`<i\{<ESC>`>2la}<ESC>?\\{<Enter>a
-	autocmd FileType tex inoremap ,it \textit{}<Esc>T{i
+	" beamer
+	autocmd FileType tex inoremap ,fr \begin{frame}<Enter>\frametitle{}<Enter><Enter><Enter><Enter>\end{frame}<Enter><Enter><Esc>6kf}i
+
+	" text highlighting
+	autocmd FileType tex inoremap ,em \emph{}<++><Esc>T{i
+	autocmd FileType tex inoremap ,ti \textit{}<++><Esc>T{i
+	autocmd FileType tex inoremap ,tr \textrm{}<++><Esc>T{i
+	autocmd FileType tex inoremap ,tb \textbf{}<++><Esc>T{i
+	" autocmd FileType tex vnoremap , <ESC>`<i\{<ESC>`>2la}<ESC>?\\{<Enter>a
+
+	" reference
 	autocmd FileType tex inoremap ,ct \cite{}<Esc>T{i
 	autocmd FileType tex inoremap ,cp \parencite{}<Esc>T{i
-	autocmd FileType tex inoremap ,glos {\gll<Space><++><Space>\\<Enter><++><Space>\\<Enter>\trans{``<++>''}}<Esc>2k2bcw
-	autocmd FileType tex inoremap ,x \begin{xlist}<Enter>\ex<Space><Enter>\end{xlist}<Esc>kA<Space>
-	autocmd FileType tex inoremap ,ol \begin{enumerate}<Enter><Enter>\end{enumerate}<Enter><Enter><++><Esc>3kA\item<Space>
-	autocmd FileType tex inoremap ,ul \begin{itemize}<Enter><Enter>\end{itemize}<Enter><Enter><++><Esc>3kA\item<Space>
-	autocmd FileType tex inoremap ,li <Enter>\item<Space>
 	autocmd FileType tex inoremap ,r \ref{}<Space><Esc>T{i
-	autocmd FileType tex inoremap ,tab \begin{tabular}<Enter><++><Enter>\end{tabular}<Enter><Enter><++><Esc>4kA{}<Esc>i
-	autocmd FileType tex inoremap ,ot \begin{tableau}<Enter>\inp{<++>}<Tab>\const{<++>}<Tab><++><Enter><++><Enter>\end{tableau}<Enter><Enter><++><Esc>5kA{}<Esc>i
-	autocmd FileType tex inoremap ,sc \textsc{}<Space><Esc>T{i
-	autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><++><Esc>2kf}i
-	autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><++><Esc>2kf}i
+
+	" environments
+	autocmd FileType tex inoremap ,eq \begin{equation}<Enter>\end{equation}<Esc>kA<Enter>
+	autocmd FileType tex inoremap ,seq \begin{equation*}<Enter>\end{equation*}<Esc>kA<Enter>
+	autocmd FileType tex inoremap ,sol \solution{<Enter>}<Esc>kA<Enter>
+	autocmd FileType tex inoremap ,al \begin{align}<Enter>\end{align}<Esc>kA<Enter>
+	autocmd FileType tex inoremap ,sal \begin{align*}<Enter>\end{align*}<Esc>kA<Enter><Tab>
+	autocmd FileType tex inoremap ,st <Esc>F{i*<Esc>
+	autocmd FileType tex inoremap ,it \begin{itemize}<Enter>\end{itemize}<Esc>kA<Enter><Tab>\item<Space>
+	autocmd FileType tex inoremap ,en \begin{enumerate}<Enter>\end{enumerate}<Esc>kA<Enter><Tab>\item<Space>
+	autocmd FileType tex inoremap ,ni <Enter>\item<Space>
+	autocmd FileType tex inoremap $$ $$<++><Esc>2F$a
+	autocmd FileType tex inoremap [] []<++><Esc>F[a
+	autocmd FileType tex inoremap {} {}<++><Esc>F{a
+	autocmd FileType tex inoremap () ()<++><Esc>F(a
+
+	" math
+	autocmd FileType tex inoremap ,bs \boldsymbol{}<++><Esc>F{a
+	autocmd FileType tex inoremap ,_ _{}<++><Esc>F{a
+	autocmd FileType tex inoremap ,^ ^{}<++><Esc>F{a
+	autocmd FileType tex inoremap ,sum \sum_{}^{<++>}<++><Esc>2F{a
+	autocmd FileType tex inoremap ,int \int_{}^{<++>}<++><Esc>2F{a
+	autocmd FileType tex inoremap ,prod \prod_{}^{<++>}<++><Esc>2F{a
+	autocmd FileType tex inoremap ,set \{\}<++><Esc>F{a
+	autocmd FileType tex inoremap `/ \frac{}{<++>}<++><Esc>2F{a
+
+	" symbols
+	autocmd FileType tex inoremap ,ra $\rightarrow$<Space>
+	autocmd FileType tex inoremap ,Ra $\Rightarrow$<Space>
+	autocmd FileType tex inoremap ,la $\leftarrow$<Space>
+	autocmd FileType tex inoremap ,La $\Leftarrow$<Space>
+	autocmd FileType tex inoremap ,lra $\leftrightarrow$<Space>
+	autocmd FileType tex inoremap ,Lra $\Leftrightarrow$<Space>
+	autocmd FileType tex inoremap `6 \partial
+	autocmd FileType tex inoremap `8 \infty
+
+	" greek symbols
+	autocmd FileType tex inoremap `a \alpha
+	autocmd FileType tex inoremap `b \beta
+	autocmd FileType tex inoremap `g \gamma
+	autocmd FileType tex inoremap `G \Gamma
+	autocmd FileType tex inoremap `d \delta
+	autocmd FileType tex inoremap `D \Delta
+	autocmd FileType tex inoremap `e \epsilon
+	autocmd FileType tex inoremap `E \Epsilon
+	autocmd FileType tex inoremap `f \phi
+	autocmd FileType tex inoremap `F \Phi
+	autocmd FileType tex inoremap `h \eta
+	autocmd FileType tex inoremap `H \Eta
+	autocmd FileType tex inoremap `i \iota
+	autocmd FileType tex inoremap `I \Iota
+	autocmd FileType tex inoremap `k \kappa
+	autocmd FileType tex inoremap `K \Kappa
+	autocmd FileType tex inoremap `l \lambda
+	autocmd FileType tex inoremap `L \Lambda
+	autocmd FileType tex inoremap `m \mu
+	autocmd FileType tex inoremap `v \vu
+	autocmd FileType tex inoremap `o \omikron
+	autocmd FileType tex inoremap `p \pi
+	autocmd FileType tex inoremap `q \theta
+	autocmd FileType tex inoremap `Q \Theta
+	autocmd FileType tex inoremap `r \rho
+	autocmd FileType tex inoremap `R \Rho
+	autocmd FileType tex inoremap `s \sigma
+	autocmd FileType tex inoremap `S \Sigma
+	autocmd FileType tex inoremap `t \tau
+	autocmd FileType tex inoremap `j \psi
+	autocmd FileType tex inoremap `J \Psi
+	autocmd FileType tex inoremap `w \omega
+	autocmd FileType tex inoremap `W \Omega
+	autocmd FileType tex inoremap `x \xi
+	autocmd FileType tex inoremap `X \Xi
+	autocmd FileType tex inoremap `y \upsilon
+	autocmd FileType tex inoremap `z \zeta
+	autocmd FileType tex inoremap `Z \Zeta
+
+	autocmd FileType tex inoremap `q \theta
+	autocmd FileType tex inoremap `Q \Theta
+
+
+	" tables
+	autocmd FileType tex inoremap ,tab \begin{tabular}<Enter><Enter>\end{tabular}<Enter><Enter><Esc>4kA{}<Esc>i
+	autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
+
+	" structure
+	autocmd FileType tex inoremap ,chap \chapter{}<Enter><Enter><Esc>2kf}i
+	autocmd FileType tex inoremap ,sec \section{}<Enter><Enter><Esc>2kf}i
 	autocmd FileType tex inoremap ,ssec \subsection{}<Enter><Enter><Esc>2kf}i
 	autocmd FileType tex inoremap ,sssec \subsubsection{}<Enter><Enter><Esc>2kf}i
-	autocmd FileType tex inoremap ,st <Esc>F{i*<Esc>f}i
-	autocmd FileType tex inoremap ,beg \begin{DELRN}<Enter><Enter>\end{DELRN}<Enter><Enter><Esc>4k0fR:MultipleCursorsFind<Space>DELRN<Enter>c
-	autocmd FileType tex inoremap ,tt \texttt{}<Space><Esc>T{i
-	autocmd FileType tex inoremap ,bt {\blindtext}
-	autocmd FileType tex inoremap ,nu $\varnothing$
-	autocmd FileType tex inoremap ,col \begin{columns}[T]<Enter>\begin{column}{.5\textwidth}<Enter><Enter>\end{column}<Enter>\begin{column}{.5\textwidth}<Enter><++><Enter>\end{column}<Enter>\end{columns}<Esc>5kA
+
+
+
 	autocmd VimLeave *.tex !texclear %
 
-
+" http://vim-latex.sourceforge.net/documentation/latex-suite/auc-tex-mappings.html
